@@ -1,12 +1,8 @@
 {
   "name": "parcel-dist-cleaner",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "A script that removes all files from the dist directory. Useful when using Parcel Bundler before using the build command, as files are bundled in the dist directory with unique serial numbers and are not overwritten.",
   "main": "index.js",
-  "scripts": {
-    "start": "node index",
-    "clean": "node distCleaner"
-  },
   "keywords": [
     "parcel",
     "dist",
